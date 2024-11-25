@@ -24,18 +24,18 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 8858734  # integer value, dont use ""
-    API_HASH = "e1df48857a3fbe3093a6ef5cd7ccfe41"
-    TOKEN = "1616584987:AAGiKBL-7Q4mihWH03AGtyBjfDNdp23zJVc"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5303133436  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Dr_Assad_Ali"
-    SUPPORT_CHAT = 'Alexa_Help'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'AsadSupport' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001717283097  #Prints any new group the bot is added to, prints just the name and ID.
+    API_ID = 27776767  # integer value, dont use ""
+    API_HASH = "e7b0d8f7b037df9ff8b300816e90080b"
+    TOKEN = "8146830124:AAFXB8LNf5_1EL2q67WHhCnAaEnW7O63hWI"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 6942457756  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Khwonz2"
+    SUPPORT_CHAT = 'NMProject02'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'entahlahyoo' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1002245149457  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "http://removebg.com"
     TEMP_DOWNLOAD_DIRECTORY = ""
-    EVENT_LOGS = -1001717283097  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    SQLALCHEMY_DATABASE_URI = '' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
+    EVENT_LOGS = -1002245149457  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    SQLALCHEMY_DATABASE_URI = 'postgresql://neondb_owner:NL0hTHF2noxE@ep-sparkling-snowflake-a1t04hmu.ap-southeast-1.aws.neon.tech/neondb?sslmode=require' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
     LOAD = [] #try to kang this db ur big mothersfuckers i know your noob so only kanging my db
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
@@ -43,9 +43,9 @@ class Config(object):
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_USERNAME = "Dr_Asad_AliBot"
+    BOT_USERNAME = "Gus_udingilabot"
     MONGO_DB_URI = "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-    BOT_ID = "5329645589"
+    BOT_ID = "8146830124"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
